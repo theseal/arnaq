@@ -28,5 +28,3 @@ for queue in data['QueueTimesList']:
     }
     r = requests.post(vm_url, json=post_data)
     print(r.status_code)
-
-
